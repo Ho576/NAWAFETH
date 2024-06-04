@@ -1911,18 +1911,30 @@ h1, h2, h3, h4, h5,
   background-color: #B2B2B2  !important;
 }
 
-.about-body p {
-  font-size: medium;
-  font-weight: 400;
-  text-align: right; 
+.about-body-paragraph {
+  margin-top: 20px;
+  color: black !important;
+  font-size: 1.4em;
+  font-weight: 350;
   direction: rtl;
+  text-align: right;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  color: #333;
+  line-height: 1.8;
+  padding-bottom: 50px;
 }
 
-.about-body ul {
-  font-size: medium;
-  direction: rtl;
-  padding: 0; 
-  margin: 0; 
+
+.carousel-inner img {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+
+  border-radius: 10px; 
+  max-height: 500px; 
 }
 
 .about-body ul li {
@@ -1976,4 +1988,10 @@ h1, h2, h3, h4, h5,
 .profile-card .btn-primary {
   background-color: #4E5E30;
   border-color: #4E5E30;
+}
+
+@media (max-width: 768px) {
+  .about-body img {
+      height: auto;
+  }
 }
