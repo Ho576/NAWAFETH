@@ -1893,3 +1893,39 @@ h1, h2, h3, h4, h5,
 
 .bg-teal {
   background: #16c3b0; }
+
+
+
+.site-section .container .card-columns .card .card-title{
+  color:black;
+  font-weight: bold;
+}
+.site-section .container .card-columns .card .card-text{
+  color:black;
+}
+.bg-about {
+  background-color: rgb(187 235 157) !important;
+}
+
+.bg-nav{
+  background-color: #B2B2B2  !important;
+}
+
+.about-body p {
+  font-size: medium;
+  font-weight: 400;
+  text-align: right; 
+  direction: rtl;
+}
+
+.about-body ul {
+  font-size: medium;
+  direction: rtl;
+  padding: 0; 
+  margin: 0; 
+}
+
+.about-body ul li {
+  display: flex; 
+  margin-right: 10px;
+}
