@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <title>NAWAFETH</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <link href="https://fonts.googleapis.com/css?family=DM+Sans:300,400,700|Indie+Flower" rel="stylesheet" />
+
+    <link rel="stylesheet" href="fonts/icomoon/style.css" />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css" />
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css" />
+    <link rel="stylesheet" href="css/aos.css" />
+
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+    <div class="site-wrap" id="home-section">
+        <div class="site-mobile-menu site-navbar-target">
+            <div class="site-mobile-menu-header">
+                <div class="site-mobile-menu-close mt-3">
+                    <span class="icon-close2 js-menu-toggle"></span>
+                </div>
+            </div>
+            <div class="site-mobile-menu-body"></div>
+        </div>
+
+        <header class="site-navbar site-navbar-target" role="banner">
+            <div class="container mb-3">
+                <div class="d-flex align-items-center">
+                    <div class="site-logo mr-auto">
+                        <a href="index.html">NAWAFETH<span class="text-primary">.</span></a>
+                    </div>
+                    <div class="site-quick-contact d-none d-lg-flex ml-auto">
+                        <div class="d-flex site-info align-items-center mr-5">
+                            <span class="block-icon mr-3"><span class="icon-map-marker text-yellow"></span></span>
+                            <span>شارع طولكرم <br />
+                                طولكرم
+                            </span>
+                        </div>
+                        <div class="d-flex site-info align-items-center">
+                            <span class="block-icon mr-3"><span class="icon-clock-o"></span></span>
+                            <span>Sunday - Friday 8:00AM - 4:00PM <br />
+                                Saturday CLOSED</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container" dir="rtl">
+                <div class="menu-wrap d-flex align-items-center">
+                    <span class="d-inline-block d-lg-none"><a href="#"
+                            class="text-black site-menu-toggle js-menu-toggle py-5"><span
+                                class="icon-menu h3 text-black"></span></a></span>
+
+                    <nav class="site-navigation text-left mr-auto d-none d-lg-block" role="navigation">
+                        <ul class="site-menu main-menu js-clone-nav mr-auto">
+                            <li class="nav-item">
+                                <a href="index.html" class="nav-link">الرئيسية</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a href="about.html" class="nav-link">حول</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" id="Dropdown" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">المسؤولية
+                                    المجتمعية</a>
+                                <div class="dropdown-menu" aria-labelledby="Dropdown">
+                                    <a class="dropdown-item" href="paragraph.html">الفقرات</a>
+                                    <a class="dropdown-item" href="interviews.html">المقابلات</a>
+                                    <a class="dropdown-item" href="activities.html">الأنشطة</a>
+                                    <a class="dropdown-item" href="recommendations.html">التوجيهات</a>
+                                </div>
+                            </li>
+                            <li class="nav-item ">
+                                <a href="team.html" class="nav-link">الفريق</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="contact.html" class="nav-link">الدعم 🤍</a>
+                            </li>
+                        </ul>
+                    </nav>
+
+
+                    <div class="ml-auto">
+                    </div>
+                </div>
+            </div>
+        </header>
+
+
+        <body>
+            <div class="site-section bg-nav "></div>
+
+            <div class="site-section about-body">
+
+                <section class="ftco-section">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-md-6 text-center mb-5">
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-lg-10 col-md-12">
+                                <div class="wrapper">
+                                    <div class="row no-gutters">
+                                        <div class="col-md-7 d-flex align-items-stretch">
+                                            <div class="contact-wrap w-100 p-md-5 p-4">
+                                                <h3 class="mb-4">ارسل لنا ملاحظاتك</h3>
+                                                <div id="form-message-warning" class="mb-4"></div>
+                                                <div id="form-message-success" class="mb-4">
+                                                    Your message was sent, thank you!
+                                                </div>
+                                                <form method="POST" id="contactForm" name="contactForm">
+                                                    <div class="row">
+                                                        <div class="col-md-6">
+                                                            <div class="form-group">
+                                                                <input type="text" class="form-control" name="name"
+                                                                    id="name" placeholder="Name">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-6">
+                                                            <div class="form-group">
+                                                                <input type="email" class="form-control" name="email"
+                                                                    id="email" placeholder="Email">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-12">
+                                                            <div class="form-group">
+                                                                <input type="text" class="form-control" name="subject"
+                                                                    id="subject" placeholder="Subject">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-12">
+                                                            <div class="form-group">
+                                                                <textarea name="message" class="form-control"
+                                                                    id="message" cols="30" rows="7"
+                                                                    placeholder="Message"></textarea>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-12">
+                                                            <div class="form-group">
+                                                                <input type="submit" value="Send Message"
+                                                                    class="btn btn-primary">
+                                                                <div class="submitting"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-5 d-flex align-items-stretch">
+                                            <div class="info-wrap bg-primary w-100 p-lg-5 p-4">
+                                                <h3 class="mb-4 mt-md-4">تواصل معنا </h3>
+                                                <div class="dbox w-100 d-flex align-items-start">
+                                                    <div class="icon d-flex align-items-center justify-content-center">
+                                                        <span class="fa fa-map-marker"></span>
+                                                    </div>
+                                                    <div class="text pl-3">
+                                                        <p><span>العنوان:</span> طولكرم - شارع طولكرم</p>
+                                                    </div>
+                                                </div>
+                                                <div class="dbox w-100 d-flex align-items-center">
+                                                    <div class="icon d-flex align-items-center justify-content-center">
+                                                        <span class="fa fa-phone"></span>
+                                                    </div>
+                                                    <div class="text pl-3">
+                                                        <p><span>الهاتف:</span> <a href="tel://1234567920">+ 1235 2355
+                                                                98</a></p>
+                                                    </div>
+                                                </div>
+                                                <div class="dbox w-100 d-flex align-items-center">
+                                                    <div class="icon d-flex align-items-center justify-content-center">
+                                                        <span class="fa fa-paper-plane"></span>
+                                                    </div>
+                                                    <div class="text pl-3">
+                                                        <p><span> email :</span> <a
+                                                                href="mailto:info@yoursite.com">info@yoursite.com</a>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <footer class="site-footer">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <h2 class="footer-heading mb-3">حول</h2>
+                                <p class="mb-5">
+                                    Far far away, behind the word mountains, far from the countries
+                                    Vokalia and Consonantia, there live the blind texts.
+                                </p>
+
+                                <h2 class="footer-heading mb-4">الاخبار</h2>
+                                <form action="#" class="d-flex" class="subscribe">
+                                    <input type="text" class="form-control mr-3" placeholder="Email" />
+                                    <input type="submit" value="Send" class="btn btn-primary" />
+                                </form>
+                            </div>
+                            <div class="col-lg-8 ml-auto">
+                                <div class="row">
+                                    <div class="col-lg-4 ml-auto">
+                                        <h2 class="footer-heading mb-4">Navigation</h2>
+                                        <ul class="list-unstyled">
+                                            <li><a href="#">About Us</a></li>
+                                            <li><a href="#">Testimonials</a></li>
+                                            <li><a href="#">Terms of Service</a></li>
+                                            <li><a href="#">Privacy</a></li>
+                                            <li><a href="#">Contact Us</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <h2 class="footer-heading mb-4">Navigation</h2>
+                                        <ul class="list-unstyled">
+                                            <li><a href="#">About Us</a></li>
+                                            <li><a href="#">Testimonials</a></li>
+                                            <li><a href="#">Terms of Service</a></li>
+                                            <li><a href="#">Privacy</a></li>
+                                            <li><a href="#">Contact Us</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row pt-5 mt-5 text-center">
+                            <div class="col-md-12">
+                                <div class="border-top pt-5">
+                                    <p>
+                                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                                        Copyright &copy;
+                                        <script>
+                                            document.write(new Date().getFullYear());
+                                        </script>
+                                        All rights reserved | This design is made with
+                                        <i class="icon-heart text-danger" aria-hidden="true"></i> by
+                                        <a href="" target="_blank">rajaa</a>
+                                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+
+            <script src="js/jquery.min.js"></script>
+            <script src="js/popper.js"></script>
+            <script src="js/bootstrap.min.js"></script>
+            <script src="js/jquery.validate.min.js"></script>
+            <script src="js/main.js"></script>
+
+        </body>
+
+</html>
