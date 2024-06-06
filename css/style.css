@@ -2213,7 +2213,7 @@
   /* Ensure navbar responsiveness */
   .site-navbar.site-navbar-target {
   background-color: #B2B2B2;
-  position: fixed;
+  /* position: fixed; */
   width: 100%;
   z-index: 1000;
   }
@@ -2437,8 +2437,10 @@
   }
   }
   .info-wrap{
-    background-color: #4ce2ce;
+    background-color: #dc3545;
+    border-radius: 10px;
+    color: white!important;
   }
   .info-wrap a {
-    color: #000!important;
+    color: white!important;
   }
